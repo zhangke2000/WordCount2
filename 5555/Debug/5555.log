@@ -1,0 +1,31 @@
+﻿生成启动时间为 2020/12/18 19:40:43。
+     1>项目“F:\GitTest\newWordCount\5555\5555\5555.vcxproj”在节点 2 上(build 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“F:\GitTest\newWordCount\5555\Debug\”。
+       InitializeBuildStatus:
+         正在创建“Debug\5555.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         F:\专业软件\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt wdct.cpp
+         wdct.cpp
+     1>f:\gittest\newwordcount\5555\5555\wdct.cpp(9): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\专业软件\vc\include\stdio.h(234) : 参见“fopen”的声明
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\5555.exe.embed.manifest.res" Debug\5555_manifest.rc 
+       Link:
+         F:\专业软件\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\GitTest\newWordCount\5555\Debug\5555.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\5555.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\GitTest\newWordCount\5555\Debug\5555.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\GitTest\newWordCount\5555\Debug\5555.lib" /MACHINE:X86 Debug\5555.exe.embed.manifest.res
+         Debug\wdct.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\5555.exe.embed.manifest" /manifest Debug\5555.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\5555.exe.embed.manifest.res" Debug\5555_manifest.rc 
+       LinkEmbedManifest:
+         F:\专业软件\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\GitTest\newWordCount\5555\Debug\5555.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\5555.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\GitTest\newWordCount\5555\Debug\5555.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\GitTest\newWordCount\5555\Debug\5555.lib" /MACHINE:X86 Debug\5555.exe.embed.manifest.res
+         Debug\wdct.obj
+         5555.vcxproj -> F:\GitTest\newWordCount\5555\Debug\5555.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\5555.unsuccessfulbuild”。
+         正在对“Debug\5555.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\GitTest\newWordCount\5555\5555\5555.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:12.64
